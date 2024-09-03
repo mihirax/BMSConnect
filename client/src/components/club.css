@@ -1,0 +1,38 @@
+
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #070707;
+  line-height: 1.6;
+  background: url("/public/images/cc.jpeg") center/cover no-repeat fixed;
+  padding: 60px;
+  position: relative;
+}
+
+h1,
+h2 {
+  margin-top: 20px;
+}
+
+.coordinators {
+  margin-top: 20px;
+}
+
+.images {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.club-info {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.club-info img,
+.club img,
+img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto; /* Center the image */
+}

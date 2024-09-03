@@ -1,0 +1,117 @@
+.pref{
+
+  background-image: url('./assets/bg4.jpeg.jpg');
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+.pref::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+}
+.question-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: transparent;
+opacity:0.9;
+border-radius: 5%;
+margin: 0 auto;
+margin-top: 100px;
+margin-right: 200px; /* Adjust the value as needed */
+width: 100%;
+max-width: 600px;
+font-family: 'lato';
+position: relative;
+z-index: 1;
+margin:auto;
+justify-content: center;
+margin-top: 100px;
+text-align: center;
+padding: 2rem;
+max-width: fit-content;
+background-color: #EDAA25; /* Set a white background */
+border-radius: 30px; /* Add rounded corners */
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+font-family:'lato' ; /* Use a modern sans-serif font */
+font-size: 16px; /* Adjust the base font size */ /* Set the font weight to normal */
+letter-spacing: 0.5px; /* Add a slight letter spacing for better readability */
+line-height: 1.6;
+}
+
+.question-container {
+    margin-top: 50px ;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .question-container h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .options-container {
+    margin-top: 30px ;
+  margin-bottom:30px;
+  display: flex;
+  background-color:transparent;
+  padding: 0.75em 1em;
+  border-radius: 30px;
+  justify-content: center;
+  gap: 50px;
+  }
+  
+  .option {
+    margin: 0 1rem;
+    text-align: center;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .option img {
+    margin-top: auto;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .option p {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .option.selected {
+    border-color: #007bff;
+  }
+  @media (min-width: 640px) {
+    .optionsContainer {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .optionsContainer {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  
+
+  
