@@ -20,3 +20,5 @@ Tech Stack -MERN
 -Backend: Node js,Express js
 -Database: MongoDB
 
+To understand the working of the website check out this link:
+https://www.youtube.com/watch?v=EpbC-LE1ooE
