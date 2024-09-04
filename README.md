@@ -8,7 +8,7 @@ BMS Connect(College Clubs, Events and Competitions Website)
 -After sigining up and logging in, the student gets access to information regarding all the clubs in at the preferences page, where they can browse through a different number of categories and 
   read about different clubs at the college.
   
--They can also brose through varios events and competions in the events page and register for them.
+-Users can browse through various events and competions in the events page and register for them.
 
 -After registering, the registrations can be tracked in the registrations page, where the user can read the contents of the form, edit any inncorect information or delete the registration if 
   they no longer wish t praticipate in the event.
