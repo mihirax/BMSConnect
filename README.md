@@ -16,6 +16,7 @@ BMS Connect(College Clubs, Events and Competitions Website)
   
 Tech Stack -MERN
 -Frontend: React js,CSS, Bootstrap
+-Bulit using Vite
 -Backend: Node js,Express js
 -Database: MongoDB
--Bulit using Vite
+
