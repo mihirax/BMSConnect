@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // const usersUrl = 'http://localhost:3003/users';
-const usersUrl = 'https://bmsc-r4g1.vercel.app/index.js';
+const usersUrl = 'http://localhost:5000';
 
 export const getUsers = async (id) => {
     id = id || '';
