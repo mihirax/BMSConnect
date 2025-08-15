@@ -1,6 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Login from "./pages/Login";
+import Register from "./pages/Register";
+import VerifyEmail from "./pages/VerifyEmail";
 import Clubs from "./pages/Clubs";
 import ClubDetails from "./pages/ClubDetails";
 import Events from "./pages/Events";
@@ -18,6 +20,8 @@ export default function App() {
         <Routes>
           <Route path="/" element={<h2>Welcome to BMS Connect</h2>} />
           <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/verify-email/:token" element={<VerifyEmail />} />
           <Route path="/clubs" element={<Clubs />} />
           <Route path="/clubs/:id" element={<ClubDetails />} />
           <Route path="/events" element={<Events />} />
